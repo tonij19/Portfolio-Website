@@ -22,6 +22,40 @@ p {
     color: #000000;
     background-color: #ffffff;
 }
+
+.navbar {
+    width:100%;
+    background-color: #ffffff;
+    color: transparent;
+    padding:15px 75px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbarlogo h1{
+    font-size: 35px;
+    color: black;
+}
+
+.navbar ul{
+    list-style: none;
+    gap:25px;
+    display: flex;
+    margin: 25px;
+}
+
+.navbar ul li{
+     position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: 0.3s ease;
+}
+
 .header {
     color: #264486;
     padding: 10px;
