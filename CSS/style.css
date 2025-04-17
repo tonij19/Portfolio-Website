@@ -12,6 +12,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: sticky;
+    top: 0;
+    overflow: visible;
+    background-color: white;
 }
 
 .navbar-logo{
@@ -25,10 +30,16 @@ body {
     display: flex;
     margin: 0;
     padding: 2px 100px;
+
+    float: left;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 
 .navbar ul li{
      position: relative;
+     overflow: visible;
 }
 
 .navbar ul li a{
@@ -72,7 +83,6 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;}
 
-/* this is the actual button */
 .dropdown:hover .dropbtn { 
     background-color: #a7c3ff;
     color: white;
@@ -91,6 +101,13 @@ body {
     padding: 20px;
     border-radius: 10px;
 
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    margin: 0;
 }
 
 h1 {
